@@ -1,0 +1,30 @@
+input{
+    margin-bottom: 5px;
+}
+h3{
+    border-bottom: 1px solid rgb(190, 187, 187);
+}
+.desc{
+    border: 1px solid gray;
+    overflow-y: scroll;
+    height: 100px;
+}
+
+.note_content{
+}
+.note{
+    margin-top: 10px;
+    padding: 5px;
+    border-bottom: 1px solid rgb(190, 187, 187);
+}
+
+.notes{    
+    width: 450px;
+    margin: 20px;
+    padding: 5px;
+    border-bottom: 1px solid rgb(190, 187, 187);
+    /* border-top: 1px solid rgb(190, 187, 187); */
+}
+.container{
+   width: 60%;
+}
