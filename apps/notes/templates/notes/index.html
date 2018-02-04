@@ -18,13 +18,13 @@
 
 <body>
     <div class="container">
-        <h3>Notes</h3>
+        <h3 id="heading">Notes</h3>
         <div class="notes">
             {%if notes%} {% for note in notes %}
             <div class="content">
                 <div class="row">
-                    <div class="col-md-8">
-                        <h4>{{note.title}}</h4>
+                    <div class="col-md-7">
+                        <h4 id="title">{{note.title}}</h4>
                     </div>
                     <div class="col-md-1">
                         <a class="deleteNote" href="/delete/{{note.id}}" noteid={{note.id}}>Delete</a>
